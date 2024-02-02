@@ -198,7 +198,7 @@ int add_D51(int x)
                                                      D51WHL51, D51WHL52, D51WHL53, D51DEL},
                                                     {D51STR1, D51STR2, D51STR3, D51STR4, D51STR5, D51STR6, D51STR7,
                                                      D51WHL61, D51WHL62, D51WHL63, D51DEL}};
-    static char *coal[D51HEIGHT + 12] = {COAL01, COAL02, COAL03, COAL04, COAL05,
+    static char *coal[D51HEIGHT + 11] = {COAL01, COAL02, COAL03, COAL04, COAL05,
                                          COAL06, COAL07, COAL08, COAL09, COAL10,
                                          COAL11, COAL12, COAL13, COAL14, COAL15,
                                          COAL16, COAL17, COAL18, COAL19, COAL20,
@@ -243,10 +243,10 @@ int add_C51(int x)
                                                      C51WH51, C51WH52, C51WH53, C51WH54, C51DEL},
                                                     {C51STR1, C51STR2, C51STR3, C51STR4, C51STR5, C51STR6, C51STR7,
                                                      C51WH61, C51WH62, C51WH63, C51WH64, C51DEL}};
-    static char *coal[C51HEIGHT + 1] = {COALDEL, COAL01, COAL02, COAL03, COAL04, COAL05,
-                                        COAL06, COAL07, COAL08, COAL09, COAL10, COAL11,
-                                        COAL12, COAL13, COAL14, COAL15, COAL16, COAL17,
-                                        COAL18, COAL19, COAL20, COALDEL};
+    static char *coal[C51HEIGHT + 18] = {COALDEL, COAL01, COAL02, COAL03, COAL04, COAL05,
+                                         COAL06, COAL07, COAL08, COAL09, COAL10, COAL11,
+                                         COAL12, COAL13, COAL14, COAL15, COAL16, COAL17,
+                                         COAL18, COAL19, COAL20, COALDEL};
 
     int y, i, dy = 0;
 
