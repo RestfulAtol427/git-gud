@@ -52,7 +52,7 @@
 #define COAL03 "    ____________________         "
 #define COAL04 "   _|   ___      _____  \\_A  "
 #define COAL05 " =|    |  __  |    |       |  "
-#define COAL06 " -|    |___|  |    |       |  "
+#define COAL06 " -|    |___|  |    |     ----  |  "
 #define COAL07 "__|________________________|_ "
 #define COAL08 "|__________________________|_ "
 #define COAL09 "   |_D__D__D_|  |_D__D__D_|   "
