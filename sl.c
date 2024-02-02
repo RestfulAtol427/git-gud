@@ -176,7 +176,10 @@ int add_D51(int x)
             D51WHL61, D51WHL62, D51WHL63, D51DEL}};
     static char *coal[D51HEIGHT + 1]
         = {COAL01, COAL02, COAL03, COAL04, COAL05,
-           COAL06, COAL07, COAL08, COAL09, COAL10, COALDEL};
+           COAL06, COAL07, COAL08, COAL09, COAL10, 
+           COAL11, COAL12, COAL13, COAL14, COAL15, 
+           COAL16, COAL17, COAL18, COAL19, COAL20, 
+           COALDEL};
 
     int y, i, dy = 0;
 
@@ -216,7 +219,9 @@ int add_C51(int x)
             C51WH61, C51WH62, C51WH63, C51WH64, C51DEL}};
     static char *coal[C51HEIGHT + 1]
         = {COALDEL, COAL01, COAL02, COAL03, COAL04, COAL05,
-           COAL06, COAL07, COAL08, COAL09, COAL10, COALDEL};
+           COAL06, COAL07, COAL08, COAL09, COAL10, COAL11, 
+           COAL12, COAL13, COAL14, COAL15, COAL16, COAL17, 
+           COAL18, COAL19, COAL20, COALDEL};
 
     int y, i, dy = 0;
 
