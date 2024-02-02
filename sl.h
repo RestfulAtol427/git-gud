@@ -49,14 +49,25 @@
 
 #define COAL01 "                              "
 #define COAL02 "                              "
-#define COAL03 "    __________________         "
-#define COAL04 "   _|   ___      _____\\_____A  "
+#define COAL03 "    ____________________         "
+#define COAL04 "   _|   ___      _____  \\_A  "
 #define COAL05 " =|    |  __  |    |       |  "
 #define COAL06 " -|    |___|  |    |       |  "
 #define COAL07 "__|________________________|_ "
 #define COAL08 "|__________________________|_ "
 #define COAL09 "   |_D__D__D_|  |_D__D__D_|   "
 #define COAL10 "    \\_/   \\_/    \\_/   \\_/    "
+
+#define COAL11 "                                 "
+#define COAL12 "                                 "
+#define COAL13 "    _________________________    "
+#define COAL14 "   _|   ___             __   \\_A  "
+#define COAL15 " =|    |  __  |    |   |  \   |  "
+#define COAL16 " -|    |___|  |____|   |__/   |  "
+#define COAL17 "__|___________________________|_ "
+#define COAL18 "|_____________________________|_ "
+#define COAL19 "   |_D__D__D_|  |_D__D__D_|   "
+#define COAL20 "    \\_/   \\_/    \\_/   \\_/    "
 
 #define COALDEL "                              "
 
