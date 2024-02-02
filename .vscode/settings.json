@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/cbyers/git-gud",
+            "binaryPath": "/home/cbyers/git-gud/sl",
+            "binaryArgs": []
+        }
+    ]
+}
