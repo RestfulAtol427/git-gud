@@ -199,10 +199,10 @@ int add_D51(int x)
                                                     {D51STR1, D51STR2, D51STR3, D51STR4, D51STR5, D51STR6, D51STR7,
                                                      D51WHL61, D51WHL62, D51WHL63, D51DEL}};
     static char *coal[D51HEIGHT + 11] = {COAL01, COAL02, COAL03, COAL04, COAL05,
-                                         COAL06, COAL07, COAL08, COAL09, COAL10,
-                                         COAL11, COAL12, COAL13, COAL14, COAL15,
+                                         COAL06, COAL07, COAL08, COAL09, COAL10, COAL11, COAL12, COALDEL};
+    static char *coal2[D51HEIGHT + 11] = {COAL11, COAL12, COAL13, COAL14, COAL15,
                                          COAL16, COAL17, COAL18, COAL19, COAL20,
-                                         COALDEL};
+                                         COALDEL};                                         
 
     int y, i, dy = 0;
 
@@ -219,6 +219,7 @@ int add_D51(int x)
     {
         my_mvaddstr(y + i, x, d51[(D51LENGTH + x) % D51PATTERNS][i]);
         my_mvaddstr(y + i + dy, x + 53, coal[i]);
+        //my_mvaddstr(y + i + dy, x + 53, coal2[i]);
     }
     if (ACCIDENT == 1)
     {

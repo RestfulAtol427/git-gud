@@ -61,12 +61,12 @@
 #define COAL12 "                                 "
 #define COAL13 "    _________________________    "
 #define COAL14 "   _|   ___             __   \\_A  "
-#define COAL15 " =|    |  __  |    |   |  \\  |  "
-#define COAL16 " -|    |___|  |____|   |__//  |  "
+#define COAL15 " =|    |  __  |    |   |  \\   |  "
+#define COAL16 " -|    |___|  |____|   |__/   |  "
 #define COAL17 "__|___________________________|_ "
 #define COAL18 "|_____________________________|_ "
-#define COAL19 "   |_D__D__D_|  |_D__D__D_|   "
-#define COAL20 "    \\_/   \\_/    \\_/   \\_/    "
+#define COAL19 "   |_D__D__D_|     |_D__D__D_|   "
+#define COAL20 "    \\_/   \\_/       \\_/   \\_/    "
 
 #define COALDEL "                              "
 
